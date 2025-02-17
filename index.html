@@ -7,35 +7,94 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="dashboard"></div>
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
-    </div>
-    <div class="header"></div>
-    <div class="main">
-        <div class="projects">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="dashboard">
+                <h1>Dashboard</h1>
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+            <ul>
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
         </div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
+
+        <div class="header">
+            <div class="toprow"></div>
+            <div class="bottomrow">
+                <div class="greeting">
+                    <div class="icon"></div>
+                    <p>Hi there,</p>
+                    <p class="name">Elliot Rosen (@elliot)</p>
+                </div>
+                <div class="actions">
+                    <button id="new">New</button>
+                    <button id="upload">Upload</button>
+                    <button id="share">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="projects">
+                <div class="title">
+                    <h3>Your Projects</h3>
+                </div>
+                <div id="card1" class="card"></div>
+                <div id="card2" class="card"></div>
+                <div id="card3" class="card"></div>
+                <div id="card4" class="card"></div>
+                <div id="card5" class="card"></div>
+                <div id="card6" class="card"></div>
+            </div>
+            <div class="misc">
+                <div class="title">
+                    <h3>Announcements</h3>
+                </div>
+                <div class="announcements">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Suspendisse aenean potenti ut nostra consectetur morbi enim pretium. </p>
+                    <h4>Community Share Day</h4>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Suspendisse aenean potenti ut nostra consectetur morbi enim pretium. </p>
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Suspendisse aenean potenti ut nostra consectetur morbi enim pretium. </p>
+                </div>
+                <div class="title">
+                    <h3>Trending</h3>
+                </div>
+                <div class="trending">
+                    <div class="tab">
+                        <div class="icon"></div>
+                        <p class="user">@tegan</p>
+                        <p class="proj">World Peace Builder</p>
+                    </div>
+                    <div class="tab">
+                        <div class="icon"></div>
+                        <p class="user">@morgan</p>
+                        <p class="proj">Super Cool Project</p>
+                    </div>
+                    <div class="tab">
+                        <div class="icon"></div>
+                        <p class="user">kendall</p>
+                        <p class="proj">Life Changing App</p>
+                    </div>
+                    <div class="tab">
+                        <div class="icon"></div>
+                        <p class="user">@alex</p>
+                        <p class="proj">No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>
